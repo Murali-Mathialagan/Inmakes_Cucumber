@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.802851">
+<testcase classname="To validate the signin functionality of the amazon application" name="To validate signin page with valid username and invalid password" time="24.802851">
+<system-out><![CDATA[Given To open the chrome browser and maximize the window to automate amazon sign in page.passed
+When To launch the amazon url of the application............................passed
+And user has to move the cursor to the Accounts and lists element...........passed
+And user has to click the signin button and navigate to the sign in page....passed
+And user has to pass the valid email id in the email textbox field..........passed
+And user has to click continue button and navigate to the next page.........passed
+And user has to pass the valid password in the password textbox field.......passed
+Then click the submit button to sign in.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,140 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2643087600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "IciciBank.browserLaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 154495300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "IciciBank.maximize()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the log in page with valid userid and password",
+        "description": "",
+        "id": "to-validate-the-log-in-functionality-of-the-icici-bank-web-application;to-validate-the-log-in-page-with-valid-userid-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 326136400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "IciciBank.getScreenShot()"
+            }
+          },
+          {
+            "result": {
+              "duration": 166735701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "IciciBank.browserClose()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28765205200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to pass the url of the ICICI bank",
+            "match": {
+              "location": "IciciBank.user_has_to_pass_the_url_of_the_ICICI_bank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 177364100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has to pass the valid data in the user id textbox",
+            "match": {
+              "location": "IciciBank.user_has_to_pass_the_valid_data_in_the_user_id_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116623000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user has to click the arrow button",
+            "match": {
+              "location": "IciciBank.user_has_to_click_the_arrow_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157219800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to pass the valid data in the password textbox",
+            "match": {
+              "location": "IciciBank.user_has_to_pass_the_valid_data_in_the_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112996700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to click the log in button and print the message",
+            "match": {
+              "location": "IciciBank.user_has_to_click_the_log_in_button_and_print_the_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33564701,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user has to check the credentials are valid or not",
+            "match": {
+              "location": "IciciBank.user_has_to_check_the_credentials_are_valid_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Bank"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the log in functionality of the ICICI Bank web Application",
+    "description": "",
+    "id": "to-validate-the-log-in-functionality-of-the-icici-bank-web-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/IciciBank.feature",
+    "tags": []
+  }
+]

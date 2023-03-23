@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.656727">
+<testcase classname="To validate the log in functionality of the ICICI Bank web Application" name="To validate the log in page with valid userid and password" time="32.656727">
+<system-out><![CDATA[When user has to pass the url of the ICICI bank.............................passed
+And user has to pass the valid data in the user id textbox..................passed
+And user has to click the arrow button......................................passed
+And user has to pass the valid data in the password textbox.................passed
+And user has to click the log in button and print the message...............passed
+Then user has to check the credentials are valid or not.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

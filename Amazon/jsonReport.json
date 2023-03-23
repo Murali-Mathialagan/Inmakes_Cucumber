@@ -1,0 +1,191 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2688373700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To open the chrome browser and maximize the window to automate amazon sign in page",
+            "match": {
+              "location": "Amazon.to_open_the_chrome_browser_and_maximize_the_window_to_automate_amazon_sign_in_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15353400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Amazon.preCondition()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate signin page with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-signin-functionality-of-the-amazon-application;to-validate-signin-page-with-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 190720700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Amazon.postCondition()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14564568000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To launch the amazon url of the application",
+            "match": {
+              "location": "Amazon.to_launch_the_amazon_url_of_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260228000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user has to move the cursor to the Accounts and lists element",
+            "match": {
+              "location": "Amazon.user_has_to_move_the_cursor_to_the_Accounts_and_lists_element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3015911700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user has to click the signin button and navigate to the sign in page",
+            "match": {
+              "location": "Amazon.user_has_to_click_the_signin_button_and_navigate_to_the_sign_in_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188964500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has to pass the valid email id in the email textbox field",
+            "match": {
+              "location": "Amazon.user_has_to_pass_the_valid_email_id_in_the_email_textbox_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "muralimariyan8@gmail.com",
+                  "Varshinipriya@gmail.com",
+                  "muralimathi@gmail.com",
+                  "7708324140"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3523806200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user has to click continue button and navigate to the next page",
+            "match": {
+              "location": "Amazon.user_has_to_click_continue_button_and_navigate_to_the_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114839600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to pass the valid password in the password textbox field",
+            "match": {
+              "location": "Amazon.user_has_to_pass_the_valid_password_in_the_password_textbox_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "murali@123",
+                  "mariyan@25",
+                  "varshini@35",
+                  "priya@34"
+                ]
+              },
+              {
+                "cells": [
+                  "12345@murali",
+                  "3@345#6$",
+                  "bjfjfh@746247",
+                  "jhfjas^\u0026^"
+                ]
+              },
+              {
+                "cells": [
+                  "fhfsfhsgui",
+                  "jhffywr387687",
+                  "^%^%hjhjh",
+                  "YGYG^\u0026*^\u0026"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235958600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click the submit button to sign in",
+            "match": {
+              "location": "Amazon.click_the_submit_button_to_sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Amazon"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the signin functionality of the amazon application",
+    "description": "",
+    "id": "to-validate-the-signin-functionality-of-the-amazon-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Amazon.feature",
+    "tags": []
+  }
+]
